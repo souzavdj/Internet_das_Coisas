@@ -6,8 +6,8 @@ WiFiClient espClient; // Cria o objeto espClient
 
 // WIFI
 const char* myHostname = "vinicius_esp"; // Nome do host na rede
-const char* SSID = "Denis"; // SSID / nome da rede WI-FI que deseja se conectar
-const char* PASSWORD = "thiago123"; // Senha da rede WI-FI que deseja se conectar
+const char* SSID = "IoT"; // SSID / nome da rede WI-FI que deseja se conectar
+const char* PASSWORD = "teste123"; // Senha da rede WI-FI que deseja se conectar
  
 void initWiFi() 
 {
